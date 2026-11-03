@@ -10,7 +10,7 @@
 *{box-sizing:border-box}
 body{margin:0;background:#080B14;color:#fff;font-family:Arial,sans-serif;min-height:100vh;display:flex;flex-direction:column}
 header{padding:22px 7%;display:flex;align-items:center;gap:12px}
-.logo{width:45px;height:45px;border-radius:15px;background:linear-gradient(135deg,#9D7BFF,#6540E8);display:grid;place-items:center;font-size:20px;font-weight:900;box-shadow:0 5px 25px #7c5cff55}
+.logo{width:45px;height:45px;object-fit:contain;border-radius:12px}
 .brand{font-size:21px;font-weight:800;letter-spacing:.3px}
 main{flex:1;display:flex;align-items:center;justify-content:center;text-align:center;padding:55px 22px}
 .content{max-width:540px}
@@ -22,12 +22,13 @@ h1 span{background:linear-gradient(90deg,#B99AFF,#7C5CFF);background-clip:text;-
 .status{color:#BCA9FF;font-size:13px;margin-top:15px}
 .features{display:flex;justify-content:center;gap:12px;flex-wrap:wrap;margin-top:42px}
 .feature{background:#111625;border:1px solid #222B40;border-radius:13px;padding:13px 17px;color:#D9D9E5;font-size:13px}
+.app-preview{margin:38px auto 0;max-width:280px}.app-preview img{display:block;width:100%;height:auto;border-radius:24px;border:1px solid #34304f;box-shadow:0 15px 45px #0008}
 footer{text-align:center;color:#70778A;font-size:12px;padding:25px}
 </style>
 </head>
 <body>
 <header>
-<div class="logo">FZ</div>
+<img class="logo" src="freindzone-logo.png" alt="Logo FreindZone">
 <div class="brand">FreindZone</div>
 </header>
 <main>
@@ -42,6 +43,7 @@ footer{text-align:center;color:#70778A;font-size:12px;padding:25px}
 <div class="feature">👥 Amitiés</div>
 <div class="feature">🌍 Découvertes</div>
 </div>
+<div class="app-preview"><img src="public-freindzone-app.jpg" alt="Capture de l’application FreindZone"></div>
 </section>
 </main>
 <footer>© 2026 FreindZone — Tous droits réservés</footer>
